@@ -1,0 +1,34 @@
+<html class="no-js">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title></title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+      </head>
+    <body>
+      <div
+          class="d-flex justify-content-center align-items-center"
+          style="height:80vh">
+          <div class="w-75 text-center">
+            <img class="w-75 mb-5" id="imagemGit" src="./img/camera.png" alt="Card image cap">
+                <h4 id="nome" class="text mb-3"></h4>
+                <h4 id="github" class="text mb-3"></h4>
+                <h4 id="repositorios" class="text mb-3"></h4>
+                <h4 id="seguidores" class="text mb-3"></h4>
+                <h4 id="localizacao" class="text mb-3"></h4>
+                <button type="submit" id="salvarImagem" class="btn btn-primary mt-3 mx-auto d-block w-100">
+                    Usar avatar do git como imagem
+                </button>
+          </div>
+      </div>
+
+      <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+      <script src="https://cdn.firebase.com/libs/firebaseui/3.0.0/firebaseui.js"></script>
+      <script type="text/javascript" src="js/global.js"></script>
+      <script type="text/javascript" src="js/chamadaApi.js"></script>
+      </body>
+</html>
